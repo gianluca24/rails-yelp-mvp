@@ -1,0 +1,10 @@
+
+
+<h1><%= @restaurant.name %></h1>
+<h2><%= @restaurant.address %></h2>
+<h2><%= @restaurant.phone_number %></h2>
+<p><%= link_to "Would you like to delete this restaurant?", restaurant_path, method: :delete, data: { confirm: "Are you sure about that?"} %></p>
+<p><%= link_to "Back to Restaurants", restaurants_path %></p>
+
+
+
